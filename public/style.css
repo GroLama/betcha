@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+:root {
+    --main-bg-color: linear-gradient(rgb(235, 233, 233),rgb(169, 199, 204));
+    --navBar-Color: rgb(206, 184, 184);
+    --text-color: black;
+}
+html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    display: inline-flex;
+    float: left;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+h1{
+    margin-left: 40%;
+}
+.night {
+    float: right;
+}
+.gridStart {
+    margin: 100px auto;
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+.grid{
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(214, 193, 2);
+    margin: 10px;
+}
+.active{
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    background-color:lightcoral;
+    margin: 10px;
+}

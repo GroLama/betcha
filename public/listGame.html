@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your game's list</title>
+    <script src="night.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="dataGame.js"></script>
+    <script src="displayList.js"></script>
+    <!-- <script src="update.js"></script> -->
+</head>
+
+<body>
+    <ul class="menu">
+        <li><a href="index.html" class="nav">Home</a></li>
+        <li><a href="logout.html" class="nav">Disconnect</a></li>
+        <li class="night"><input type="image" src="night.png" alt="" width="50px"></li>
+    </ul>
+    <div class="parentDiv">
+        <p>Create game</p>
+        <form action="/createGame" method="post">
+            <select required=true name="opponent" class="selectOpponent">
+                <option value="">Choose an opponent :</option>
+            </select>
+            <button class="createGame">Create</button>
+        </form>
+        <div class="tab">
+            <h1 class="titleList">My games:</h1>
+            <table class="startTable">
+                <tr >
+                    <th>Opponent</th>
+                    <th>Statut</th>
+                    <th>My Token</th>
+                    <th>Opponent Token</th>
+                    
+                </tr>
+                
+            </table>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
